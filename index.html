@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Rank</title>
+    <script src="https://cdn.tailwindcss.com">  </script>
+</head>
+<body>
+    <div class ="">
+        <!--header -->
+        <div class="bg-yellow-800 p-3 text-center text-white">Header</div>
+        <!--main-->
+        <div class="flex">
+            <!--sidebar-->
+            <div class="basis-1/4 bg-yellow-600 p-3">
+                <div class="bg-slate-200 rounded-xl p-3">
+                    <h1 class="text.xl mb-2 font-bold"><p class="capitalize ..."></p>Input Nilai</h1>
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="nama">Nama</label>
+                            <input class="rounded-xl p-1 block w-full"  type="text" id="nama" placeholder="masukkan nama">
+                        </div>
+                        <div class="mb-3 ">
+                            <label for="nilai">Nilai</label>
+                            <input  class="rounded-xl p-1 block w-full" type="number" id="nilai" placeholder="masukkan nilai">
+                        </div>
+                        <div class=" grid gap-2">
+                            <button class="bg-gray-500 hover:bg-gray-300 p-2 rounded-xl text-white" type="submit">Submit</button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            <!--content-->
+            <div class="basis-3/4 bg-yellow-600  p-3">
+                <div class="bg-slate-200 rounded-xl p-2">
+                    <h1 class="text-xl mb-2">Table Nilai Siswa</h1>
+
+                    <table class="w-full">
+                        <thead class="border border-gray-500">
+                            <tr class="bg-gray-300">
+                                <th class="px-6 py-3">No</th>
+                                <th class="px-6 py-3">Name</th>
+                                <th class="px-6 py-3">Score</th>
+                                <th class="px-6 py-3">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="bg-white border border-gray-500">
+                                <td class="px-6 py-3">1</td>
+                                <td class="text-left">Ani</td>
+                                <td>90</td>
+                                <td><button class="bg-gray-500 hover:bg-gray-300 p-2 rounded-xl text-white ">Edit</button>
+                                    <button class="bg-gray-500 hover:bg-gray-300 p-2 rounded-xl text-white">Delete</button>
+                                </td>
+                            </tr>
+                            <tr class="bg-white border border-gray-500">
+                                <td class="px-6 py-3">2</td>
+                                <td class="text-left">Drake</td>
+                                <td>100</td>
+                                <td><button class="bg-gray-500 hover:bg-gray-300 p-2 rounded-xl text-white ">Edit</button>
+                                    <button class="bg-gray-500 hover:bg-gray-300 p-2 rounded-xl text-white">Delete</button>
+                                </td>
+                            </tr>
+                            <tr class="bg-white border border-gray-500">
+                                <td class="px-6 py-3">3</td>
+                                <td class="text-left">Serina</td>
+                                <td>88</td>
+                                <td><button class="bg-gray-500 hover:bg-gray-300 p-2 rounded-xl text-white ">Edit</button>
+                                    <button class="bg-gray-500 hover:bg-gray-300 p-2 rounded-xl text-white">Delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>    
+        </div>    
+        <!--footer-->
+        <div class="bg-yellow-900 p-3 text-center text-white">
+            Copyright &copy; anis
+        </div>
+    </div>
+</body>
+</html>
